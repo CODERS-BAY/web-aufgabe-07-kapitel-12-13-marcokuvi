@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hintergrundbilder</title>
+  <style>
+    body {
+      font: 220% sans-serif;
+    }
+
+    .hg {
+      display: inline-block;
+      width: 30rem;
+      padding: 3rem 1rem;
+      border: 4px dotted orange;
+      /* Hintergrundbild zuweisen */
+      background-image: url(kreis.png);
+      background-repeat: no-repeat;
+
+    }
+
+    /* Verschiedene Angaben für background-size */
+    .eins {
+      background-size: 50px 100px;
+    }
+
+    .zwei {
+      background-size: 100% 100%;
+    }
+
+    .drei {
+      background-size: contain;
+    }
+
+    .vier {
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <p class="hg eins">background-size: 50px 100px</p>
+  <p class="hg zwei">background-size: 100% 100%</p>
+  <p class="hg drei">background-size: contain</p>
+  <p class="hg vier">background-size: cover</p>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>box-shadow</title>
+  <style>
+    div {
+      font-family: sans-serif;
+      border: 1px solid #C5C5C5;
+      border-radius: 3px;
+      margin: 3rem;
+      padding: 2rem;
+      max-width: 10rem;
+      display: inline-block;
+      font-size: 1.5rem;
+      color: #3377decc;
+    }
+
+    .eins {
+      box-shadow: #3377decc 10px 20px 4px;
+    }
+
+    .zwei {
+      box-shadow: #3377decc 10px 20px 0px;
+    }
+
+    .drei {
+      box-shadow: #3377decc 0px 0px 20px;
+    }
+
+    .vier {
+      box-shadow: #3377decc 0px 0px 20px inset;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="eins">Schattenboxen</div>
+  <div class="zwei">Schattenboxen</div>
+  <div class="drei">Schattenboxen</div>
+  <div class="vier">Schattenboxen</div>
+</body>
+</html>

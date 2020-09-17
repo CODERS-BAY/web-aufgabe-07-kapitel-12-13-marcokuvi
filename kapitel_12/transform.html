@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>transform</title>
+  <style>
+    body {
+      font: 100% sans-serif;
+    }
+
+    div {
+      max-width: 10rem;
+      background-color: red;
+      padding: 2rem;
+      display: inline-block;
+      margin: 3rem;
+    }
+
+    .gedreht {
+      transform: rotate(30deg);
+    }
+
+    .vergroessert {
+      transform: scale(2);
+    }
+
+    .verschoben {
+      transform: translate(20px, 50px);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="gedreht">rotate(30deg)</div>
+  <div class="vergroessert">scale(2)</div>
+  <div class="verschoben">translate(20px, 50px)</div>
+</body>
+
+</html>

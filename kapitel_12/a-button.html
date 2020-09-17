@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inline-Elemente</title>
+  <style>
+    .button {
+      font: 100%/1.5 sans-serif;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      padding: 0.4rem 0.8rem;
+      border-radius: 0.3rem;
+      color: #fff;
+      text-decoration: none;
+      background-color: #4c96e5;
+      margin: 1rem;
+      transition: all 0.2s;
+    }
+
+    .hervorgehoben {
+      background-color: orange;
+    }
+
+    .warnung {
+      background-color: red;
+    }
+
+    .button:hover {
+      background-color: #427fc0;
+    }
+
+    .hervorgehoben:hover {
+      background-color: #c7902b;
+    }
+
+    .warnung:hover {
+      background-color: #a62d2d;
+    }
+  </style>
+</head>
+
+<body>
+  <a class="button" href="#">Ein Link als Button</a>
+  <a class="button hervorgehoben" href="#">Ein Link als Button</a>
+  <a class="button warnung" href="#">Ein Link als Button</a>
+
+</body>
+
+</html>

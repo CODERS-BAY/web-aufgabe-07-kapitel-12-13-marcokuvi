@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Collapsing Margins</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    article {
+      background-color: lightblue;
+    }
+    .ohne {
+      padding: 1px;
+    }
+  </style>
+</head>
+<body>
+  <p>Die h1 innerhalb des article-Elements reicht ihren margin nach oben an den article weiter</p>
+  <article class="collapsing">
+    <h1>Überschrift</h1>
+  </article>
+  <p>Dieses Mal hat article ein padding von 1px und damit wird der margin von h1 nicht mehr nach oben weitergereicht, sondern steht innerhalb von article</p>
+  <article class="ohne">
+    <h1>Überschrift</h1>
+  </article>
+</body>
+</html>
