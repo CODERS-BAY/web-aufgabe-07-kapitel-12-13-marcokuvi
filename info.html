@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <h1 class="header-text">
+                Zoo
+            </h1>
+        </header>
+
+        <nav id="myNav">
+            
+            <a href="index.html">Home</a>
+            <a href="info.html">Info</a>
+            <a href="kontakt.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="navResponsive()">
+                <i class="fa fa-bars"></i>
+              </a>
+        
+        </nav>
+    </div>
+
+    <main>
+
+        <h1 class="heading">Table</h1>
+        
+
+        <table border="2">
+            <tr>
+                <th>Tier</th>
+                <th>Vegetarier</th>
+                <th>Gattung</th>
+                <th>Lebensraum</th>
+                <th>Patenschaft</th>
+                <th>Name</th>
+                <th>Sonstiges</th>
+            </tr>
+            <td>Löwe</td>
+            <td>Nein</td>
+            <td>Säugetiere</td>
+            <td>Afrika</td>
+            <td>Ja</td>
+            <td>Erik</td>
+            <td> - </td>
+            </tr>
+            <tr>
+                <td>Spinnen</td>
+                <td>Nein</td>
+                <td>Insekt</td>
+                <td>Überall</td>
+                <td>Nein</td>
+                <td> - </td>
+                <td>Giftig</td>
+            </tr>
+            <tr>
+                <td>Haie</td>
+                <td>Nein</td>
+                <td>Fische</td>
+                <td>Ozeane</td>
+                <td>Nein</td>
+                <td>Rose</td>
+                <td>Gefährdet</td>
+            </tr>
+            <tr>
+                <td>Strauß</td>
+                <td>Ja</td>
+                <td>Vogel</td>
+                <td>Afrika</td>
+                <td>Nein</td>
+                <td>Manfred</td>
+                <td> - </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <div class="leftcontent">
+            <h2>About Us</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maxime et necessitatibus officia
+                sequi commodi iusto placeat voluptatum doloribus at in quisquam culpa illo ut tempora ad nam illum
+                nulla.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias delectus quos ducimus dolorem omnis
+                blanditiis ipsam cumque voluptatibus, velit voluptatem numquam maxime necessitatibus. Architecto id
+                sequi voluptatum doloremque maiores doloribus.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed totam eos dolores vero non, deleniti
+                earum, cum, repellendus recusandae quo ab architecto saepe. Magnam magni quasi odit ratione itaque nisi?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas mollitia laborum quasi earum repellendus
+                consequatur hic accusamus quae nostrum cumque? Eos, reiciendis? Doloribus accusamus voluptates impedit.
+                Animi, amet eaque? Dolor.
+            </p>
+        </div>
+        <div class="centercontent">
+            <h2>More of us</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maxime et necessitatibus officia
+                sequi commodi iusto placeat voluptatum doloribus at in quisquam culpa illo ut tempora ad nam illum
+                nulla.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias delectus quos ducimus dolorem omnis
+                blanditiis ipsam cumque voluptatibus, velit voluptatem numquam maxime necessitatibus. Architecto id
+                sequi voluptatum doloremque maiores doloribus.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed totam eos dolores vero non, deleniti
+                earum, cum, repellendus recusandae quo ab architecto saepe. Magnam magni quasi odit ratione itaque nisi?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas mollitia laborum quasi earum repellendus
+                consequatur hic accusamus quae nostrum cumque? Eos, reiciendis? Doloribus accusamus voluptates impedit.
+                Animi, amet eaque? Dolor.
+            </p>
+            <div class="social">
+                <a href="#"><span class="fab fa-facebook-f"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                <a href="#"><span class="fab fa-instagram"></span></a>
+                <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+        </div>
+        <div class="rightcontent">
+            <h2>Contact Us</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maxime et necessitatibus officia
+                sequi commodi iusto placeat voluptatum doloribus at in quisquam culpa illo ut tempora ad nam illum
+                nulla.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias delectus quos ducimus dolorem omnis
+                blanditiis ipsam cumque voluptatibus, velit voluptatem numquam maxime necessitatibus. Architecto id
+                sequi voluptatum doloremque maiores doloribus.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed totam eos dolores vero non, deleniti
+                earum, cum, repellendus recusandae quo ab architecto saepe. Magnam magni quasi odit ratione itaque nisi?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas mollitia laborum quasi earum repellendus
+                consequatur hic accusamus quae nostrum cumque? Eos, reiciendis? Doloribus accusamus voluptates impedit.
+                Animi, amet eaque? Dolor.
+            </p>
+        </div>
+
+    </footer>
+
+    <script>
+
+function navResponsive() {
+          var navigation = document.getElementById("myNav");
+          if (navigation.id === "myNav") {
+            navigation.classList.toggle("responsive");
+          }
+        }
+    </script>
+
+</body>
+
+</html>
